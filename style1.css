@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Navigation */
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+.consult-btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.consult-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1517602302552-471fe67acf66');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Collection Section */
+.collection {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.collection h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.collection-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collection-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.collection-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.collection-item .btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.collection-item .btn:hover {
+    background-color: #e67e22;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-us .btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.about-us .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.service .btn {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.service .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Detailed About Us */
+.about-us-details {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-us-details h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Consultation Form */
+.consultation {
+    padding: 60px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.consultation h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.consultation p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.consultation-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.consultation-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.consultation-form input,
+.consultation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.consultation-form button {
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.consultation-form button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
