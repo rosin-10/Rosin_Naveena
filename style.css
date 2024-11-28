@@ -700,7 +700,7 @@ body {
     }
 
     .project-item, .certification-item {
-        font-size: 18px; /* Slightly smaller font for smaller screens */
+        font-size: 12px; /* Slightly smaller font for smaller screens */
         padding: 30px 10px; /* Reduced padding */
     }
 }
