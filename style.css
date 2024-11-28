@@ -4,6 +4,8 @@
     margin: 0;
     font-family: Poppins, sans-serif;
     text-decoration: none;
+    color: #e5e5e5;
+
 }
 
 body {
@@ -780,3 +782,4 @@ footer {
         padding: 0;
     }
 }
+
