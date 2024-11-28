@@ -780,3 +780,14 @@ footer {
         padding: 0;
     }
 }
+@media (max-width: 768px) {
+    .container, .hero-header, .skills-container, .project-grid {
+        width: 100%; /* Ensure full width */
+        max-width: 100%; /* Prevent overflow */
+        margin: 0 auto; /* Center alignment */
+        overflow: hidden; /* Hide extra space */
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
